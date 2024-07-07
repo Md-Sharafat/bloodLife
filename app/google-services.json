@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1033172998983",
+    "project_id": "bloodlife-41178",
+    "storage_bucket": "bloodlife-41178.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033172998983:android:1e4796b5b56e727041ca62",
+        "android_client_info": {
+          "package_name": "com.example.bloodlife"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3D_5IJ0NsPLZMbMGDYRdGztQYNt1aOWE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="seeGreen">#04B6A6</color>
+    <color name="ligthGreen">#99F8EF</color>
+    <color name="red">#FF0000</color>
+    <color name="Orange">#F3A087</color>
+    <color name="darkGreen">#024C45</color>
+    <color name="gray">#CDCACA</color>
+    <color name="loghtgray">#F5F0F0</color>
+    <color name="lightblue">#A7EDF6</color>
+
+
+    <color name="purple_200">#500F0B</color>
+    <color name="purple_500">#4E0707</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="lavender">#930B17</color>
+
+    <!--    <color name="black">#FF000000</color>-->
+    <!--    <color name="white">#FFFFFFFF</color>-->
+
+    <!--    <color name="purple_200">#50C2C9</color>-->
+    <!--    <color name="purple_500">#50C2C9</color>-->
+    <!--    <color name="purple_700">#50C2C9</color>-->
+    <!--    <color name="teal_200">#FF03DAC5</color>-->
+    <!--    <color name="teal_700">#FF018786</color>-->
+
+    //onboarding colors
+    <color name="background">#F0F4F3</color>
+    <color name="buttontext">#50C2C9</color>
+
+    //indicator color
+    <color name="inactive">#C4C4C4</color>
+    <color name="active">#50C2C9</color>
+
+</resources>

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/home_background"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/p1"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="5dp"
+
+
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/option"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_menu_24"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            />
+        <TextView
+            android:id="@+id/signin"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="220dp"
+            android:textStyle="normal"
+            android:layout_width="wrap_content"
+            android:text="Sign in"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/p2"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="5dp"
+
+
+        android:layout_height="wrap_content">
+        <ImageView
+
+            android:id="@+id/addPatient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/addpatient"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            />
+        <ImageView
+
+            android:id="@+id/patientList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/patientlist"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            />
+        <ImageView
+
+            android:id="@+id/donorList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/donor_list"
+            android:layout_marginRight="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/p3"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/ambulanceList"
+            android:layout_margin="5dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ambulance"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="15dp"
+            />
+        <ImageView
+
+            android:id="@+id/doctorList"
+            android:layout_margin="5dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/doctors"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="15dp"
+            />
+        <ImageView
+            android:id="@+id/bloodBankInfo"
+            android:layout_margin="5dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bloodbank"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="15dp"
+            />
+
+
+    </LinearLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.Material3.TextInputLayout.FilledBox.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        app:boxBackgroundColor="@color/Orange"
+        android:textColorHint="@color/white"
+        app:boxStrokeColor="#FFFFFF"
+        app:cursorColor="@color/black"
+
+        app:hintTextColor="@color/white">
+
+        <AutoCompleteTextView
+            android:layout_margin="5dp"
+            android:id="@+id/blood_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Blood Group"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <LinearLayout
+        android:id="@+id/p5"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:gravity="center"
+
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/plasmaBankInfo"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/plasmabank"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="15dp"
+            />
+        <ImageView
+            android:id="@+id/helpLine"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/helplone"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="15dp"
+            />
+        <ImageView
+            android:id="@+id/volunteerList"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/volunteer"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="15dp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/p6"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:gravity="left"
+
+        android:layout_height="wrap_content">
+        <ImageView
+
+            android:id="@+id/totalUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/totaluser"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+
+            />
+        <ImageView
+
+            android:id="@+id/totalDonor"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/totaldonor"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            />
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/p7"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:gravity="center"
+
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:id="@+id/contactInfo"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="2dp"
+            android:src="@drawable/contactus" />
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
